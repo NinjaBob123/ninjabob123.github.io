@@ -1,0 +1,59 @@
+/* Place your CSS styles in this file */
+container {
+    display: grid;
+}
+
+.h1 {
+    text-align: center;
+    font-family: utf-8;
+    font-weight: normal;
+    grid-column: 2;
+    grid-row: 1;
+}
+.buttonStyle1 {
+    background-color: #0033ff;
+    border: red;
+    color: red;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    grid-column: 1;
+    grid-row: 2;
+}
+.buttonStyle2 {
+    background-color: #0033ff;
+    border: red;
+    color: red;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.buttonStyle3 {
+    background-color: #0033ff;
+    border: red;
+    color: red;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.buttonStyle4 {
+    background-color: #0033ff;
+    border: red;
+    color: red;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+.background {
+    background-image: url("lines.png");
+}
