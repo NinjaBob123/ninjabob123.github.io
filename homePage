@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Home</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body style="background-image: url('lines.png')">
+
+        <div class="container">
+            <h1 class="h1">Home Page
+                <div>
+                <button class="buttonStyle1" type="button" id="button1" onclick="window.location.href='https://hunterproj.w3spaces.com/page1.html'">Go To Page 1</button>
+                <button class="buttonStyle2" type="button" id="button2" onclick="window.location.href='https://hunterproj.w3spaces.com/page2.html'">Go To Page 2</button>
+            </h1>
+        </div>
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+        
+    </body>
+
+</html>
