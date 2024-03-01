@@ -1,0 +1,12 @@
+.square {
+  height: 5;
+  width: 2000;
+  background-color: #555;
+}
+
+.oval {
+  height: 100;
+  width: 200;
+  background-color: #555;
+  border-radius: 100%;
+}
