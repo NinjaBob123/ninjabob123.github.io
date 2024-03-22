@@ -6,6 +6,6 @@
   border-color: black
 }
 
-grid-parent {
+.grid-parent {
   display: grid
 }
