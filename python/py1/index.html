@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Random Number Generator</title>
+    <py-script>
+      from random import *
+      begin = randint(-100, 100)
+      end = randint(begin + 100, begin + 400)
+      num1 = randint(begin, end)
+      write("label1", f"These are three random numbers in order: {begin}, {num1}, {end}")
+    </py-script>
+  </head>
+  <body>
+    <h1>Random Number Generator</h1>
+    <p id="label1"></p>
+  </body>
+</html>
