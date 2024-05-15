@@ -4,12 +4,22 @@
     <script>
       // JavaScript to run python file
       // Help me
-      // I dont know JS!
+      // I don't know JS!
+      function goPython(){
+            $.ajax({
+              url: "game1.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+      // copied from https://stackoverflow.com/questions/48552343/how-can-i-execute-a-python-script-from-an-html-button
+      // If there is a better way, please make a pull request
     </script>
   </head>
   <body>
     <h1>This is my game</h1>
     <p>If the button doesn't start the game, then it is broken and I have abondoned this project <br>Sorry!</p>
-    <button onclick="">
+    <input type="button" onclick="goPython()">
   </body>
 </html>
