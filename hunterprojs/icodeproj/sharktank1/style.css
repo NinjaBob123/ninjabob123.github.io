@@ -1,7 +1,7 @@
 body {
   background-color: mediumaquamarine;
-  color: darkcyan
-  text-align: center
+  color: darkcyan;
+  text-align: center;
 }
 h1 {
   color: darkcyan;
@@ -11,5 +11,5 @@ h1 {
 }
 p {
   color: darkcyan;
-  text-align: center
+  text-align: center;
 }
