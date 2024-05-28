@@ -1,0 +1,26 @@
+body {
+  background-color: mediumaquamarine;
+  font-family: monospace;
+  color: darkcyan;
+  text-align: left
+}
+h1 {
+  color: darkcyan;
+  text-align: left;
+  font-size: 72px;
+  font-weight: bold
+}
+p {
+  color: darkcyan;
+  text-align: left;
+}
+.navButton {
+  background-color: darkcyan;
+  color: mediumaquamarine;
+  width: 100px;
+  height: 50px
+}
+.navrow {
+  display: inline-block;
+  
+}
