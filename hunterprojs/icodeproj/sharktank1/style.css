@@ -4,6 +4,12 @@ body {
   text-align: center
 }
 h1 {
+  color: darkcyan;
+  text-align: center;
   font-size: 72px;
   font-weight: bold
+}
+p {
+  color: darkcyan;
+  text-align: center
 }
