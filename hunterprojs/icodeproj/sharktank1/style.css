@@ -13,3 +13,11 @@ p {
   color: darkcyan;
   text-align: center;
 }
+.navrow {
+  display: inline-block;
+}
+.navButton {
+  background-color: darkcyan;
+  color: mediumaquamarine;
+  width: 100px;
+  height: 50px
