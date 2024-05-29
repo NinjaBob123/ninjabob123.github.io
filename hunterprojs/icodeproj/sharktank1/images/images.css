@@ -6,7 +6,9 @@
   position: relative;
   margin: auto;
 }
-
+body {
+  background-color: darkaquamarine;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;
