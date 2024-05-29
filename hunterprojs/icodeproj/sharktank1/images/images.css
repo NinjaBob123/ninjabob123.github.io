@@ -9,6 +9,15 @@
 body {
   background-color: darkaquamarine;
 }
+.navButton {
+  background-color: darkcyan;
+  color: mediumaquamarine;
+  width: 100px;
+  height: 50px
+}
+.navrow {
+  display: inline-block;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;
