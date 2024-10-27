@@ -1,11 +1,44 @@
-<html>
-    <body>
-        <p id="POST1"></p>
-    </body>
-    <script type="text/javascript">
-        let data = JSON.parse(require("./data.json"));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display JSON Data in HTML</title>
+</head>
+<body>
 
-        let p = document.getElementById("POST1");
-        p.innerHTML = data.message;
+    <!-- Paragraph to display the "message" from JSON -->
+    <p id="POST1">Loading message...</p>
+
+    <script>
+        // Function to fetch and display JSON data
+        async function loadMessage() {
+            try {
+                // Fetch the JSON file
+                const response = await fetch('data.json');
+                
+                // Check if the response is ok
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                // Parse JSON data
+                const data = await response.json();
+                
+                // Access the "message" data point and set it in the paragraph
+                document.getElementById('POST1').textContent = data.message;
+            } catch (error) {
+                // Handle errors and update the paragraph with an error message
+                document.getElementById('POST1').textContent = "Failed to load message.";
+                console.error('Error fetching JSON:', error);
+            }
+        }
+
+        // Call the function to load and display the message
+        loadMessage();
     </script>
+
+</body>
 </html>
+
+<!--This is what ChatGPT gave me to read the json file. I looked at online resources, and couldn't find anything useful-->
