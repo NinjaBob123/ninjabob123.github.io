@@ -3,9 +3,9 @@
         <p id="POST1"></p>
     </body>
     <script type="text/javascript">
-        let data = require("./data.json")
+        let data = JSON.parse(require("./data.json"));
 
-        let p = document.getElementById("POST1")
-        p.innerHTML = data["message"]
+        let p = document.getElementById("POST1");
+        p.innerHTML = data.message;
     </script>
 </html>
