@@ -2,4 +2,11 @@
     <body>
         <p id="POST1"></p>
     </body>
+    <script src="data.json"></script>
+    <script type="text/javascript">
+        let data = JSON.parse(data)
+
+        let p = document.getElementById("POST1")
+        p.innerHTML = data["message"]
+    </script>
 </html>
